@@ -50,6 +50,7 @@ builds:
       - darwin
     goarch:
       - amd64
+      - arm64
     main: ./cmd/cfssl-bundle
     ldflags:
       - -s -w -X github.com/cloudflare/cfssl/cli/version.version={{.Version}}
@@ -86,6 +87,7 @@ builds:
       - darwin
     goarch:
       - amd64
+      - arm64
     main: ./cmd/cfssl-certinfo
     ldflags:
       - -s -w -X github.com/cloudflare/cfssl/cli/version.version={{.Version}}
@@ -122,6 +124,7 @@ builds:
       - darwin
     goarch:
       - amd64
+      - arm64
     main: ./cmd/cfssl-newkey
     ldflags:
       - -s -w -X github.com/cloudflare/cfssl/cli/version.version={{.Version}}
@@ -158,6 +161,7 @@ builds:
       - darwin
     goarch:
       - amd64
+      - arm64
     main: ./cmd/cfssl-scan
     ldflags:
       - -s -w -X github.com/cloudflare/cfssl/cli/version.version={{.Version}}
@@ -194,6 +198,7 @@ builds:
       - darwin
     goarch:
       - amd64
+      - arm64
     main: ./cmd/cfssljson
     ldflags:
       - -s -w -X github.com/cloudflare/cfssl/cli/version.version={{.Version}}
@@ -230,6 +235,7 @@ builds:
       - darwin
     goarch:
       - amd64
+      - arm64
     main: ./cmd/mkbundle
     ldflags:
       - -s -w -X github.com/cloudflare/cfssl/cli/version.version={{.Version}}
@@ -266,6 +272,7 @@ builds:
       - darwin
     goarch:
       - amd64
+      - arm64
     main: ./cmd/multirootca
     ldflags:
       - -s -w -X github.com/cloudflare/cfssl/cli/version.version={{.Version}}
